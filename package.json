@@ -1,0 +1,24 @@
+{
+  "name": "tello-web-ui",
+  "version": "1.0.0",
+  "description": "Web user interface for tello drone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thishandp7/tello-web-ui.git"
+  },
+  "author": "Thishan D Pathmanathan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thishandp7/tello-web-ui/issues"
+  },
+  "homepage": "https://github.com/thishandp7/tello-web-ui#readme",
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "iohook": "^0.6.1",
+    "waait": "^1.0.5"
+  }
+}
