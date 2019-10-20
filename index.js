@@ -1,9 +1,7 @@
 const dgram = require('dgram');
 const wait = require('waait');
-const iohook = require('iohook');
 
 const config = require('./config');
-const commandDelays = require('./commandsDelays');
 
 console.log(`HOST: ${config.telloHost}`);
 console.log(`PORT: ${config.telloPort}`);
