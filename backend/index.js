@@ -12,9 +12,7 @@ tello.bind(config.telloPort);
 const telloState = dgram.createSocket('udp4');
 telloState.bind(config.telloStatePort);
 
-
 const commandList = ['takeoff', 'cw 180', 'land'];
-
 
 const executeCommands = async(commandList, message) => {
   const currentCommand = async (commandList) => {

@@ -15,7 +15,7 @@ const handleError = (err) => {
   }
 }
 
-initSDKMode = async (tello, config) => {
+const initSDKMode = async (tello, config) => {
   tello.send('command', 0, 7, config.telloPort, config.telloHost, handleError);
   await wait(500);
 
