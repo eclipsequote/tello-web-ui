@@ -6,12 +6,11 @@ import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
 import AddBoxOutlinedIcon from '@material-ui/icons/AddBoxOutlined';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
-import TextField from '@material-ui/core/TextField';
 
 const useStyles = makeStyles( theme => ({
   command: {
     borderRadius: '0.3em',
-    backgroundColor: '#0095ff',
+    backgroundColor: '#bde3ff',
     margin: theme.spacing(1),
     maxWidth: '16em',
     width: '100',

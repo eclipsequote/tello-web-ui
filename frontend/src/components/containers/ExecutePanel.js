@@ -1,16 +1,17 @@
 import React from 'react';
+import SLExecutePanel from '../presentation/sl_executePanel';
 
 class ExecutePanel extends React.Component{
   constructor(props){
     super(props);
     this.state = {
-      currentCommands: []
+      currentCommands: ['up', 'left','right', 'land']
     }
   }
   render() {
     return (
       <div>
-          ExecutePanel
+          <SLExecutePanel commands={this.state.currentCommands}/>
       </div>
     )
   }

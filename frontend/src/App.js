@@ -55,6 +55,11 @@ const App = () => {
                 <ExecutePanel />
               </Paper>
             </Grid>
+            <Grid item xs={3}>
+              <Paper className={classes.paper}>
+                EXECUTE!
+              </Paper>
+            </Grid>
           </Grid>
         </div>
       </Container>
